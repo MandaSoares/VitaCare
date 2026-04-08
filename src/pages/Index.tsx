@@ -1,5 +1,11 @@
+import FeaturesSection from "@/components/landing/FeaturesSection";
+
 const Index = () => {
-  return <main className="min-h-screen bg-background" />;
+  return (
+    <div className="min-h-screen bg-background">
+      <FeaturesSection />
+    </div>
+  );
 };
 
 export default Index;
