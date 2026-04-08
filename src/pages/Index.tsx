@@ -1,5 +1,11 @@
+import HowItWorksSection from "@/components/landing/HowItWorksSection";
+
 const Index = () => {
-  return <main className="min-h-screen bg-background" />;
+  return (
+    <div className="min-h-screen bg-background">
+      <HowItWorksSection />
+    </div>
+  );
 };
 
 export default Index;
