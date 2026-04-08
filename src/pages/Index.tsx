@@ -1,5 +1,11 @@
+import HeroSection from "@/components/landing/HeroSection";
+
 const Index = () => {
-  return <main className="min-h-screen bg-background" />;
+  return (
+    <div className="min-h-screen bg-background">
+      <HeroSection />
+    </div>
+  );
 };
 
 export default Index;
