@@ -237,7 +237,7 @@ const NutritionistsSection = () => {
                       {n.avatar}
                     </span>
                   </div>
-                  <span className="absolute top-3 right-3 text-[11px] px-2.5 py-1 rounded-full bg-primary text
+                  <span className="absolute top-3 right-3 text-[11px] px-2.5 py-1 rounded-full bg-primary text-primary-foreground" >
                     {n.attendance}
                   </span>
                 </div>
